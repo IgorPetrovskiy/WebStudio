@@ -1,0 +1,44 @@
+:root{
+    --hover-color: #2196F3;
+    --navigation-color: #212121;
+    --name-color: #B4AD9E;
+    --text-color: #757575;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header-link{
+    color: var(--navigation-color);
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: var(--hover-color);
+}
+.h1{
+    font-size: 44px;
+    color: #FFF;
+}
+.sect1{
+    width: 1600px;
+    height: 600px;
+    flex-shrink: 0;
+    background-color: #2F303A;
+}
+.button{
+    background-color: var(--hover-color);
+    color: #FFF;
+}
+.span,
+.h2{
+    color: var(--navigation-color);
+}
+.list-text{
+    color: var(--text-color);
+}
+.downnav{
+    color: rgba(255, 255, 255, 0.60);;
+}
